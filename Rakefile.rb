@@ -7,4 +7,5 @@ task :deploy do
     sh 'git commit -am "Update"'
     sh 'git push origin master'
   end 
-end 
+end
+task default: :deploy
