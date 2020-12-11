@@ -2787,6 +2787,10 @@ a.text-error:visited {
 
 section.language .tab {
   border-bottom: 0 !important; }
+section.language a:focus {
+  outline: 0;
+  border: 0;
+  text-decoration: none; }
 section.language .topic {
   position: relative;
   top: 15px; }
