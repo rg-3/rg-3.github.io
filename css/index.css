@@ -2782,15 +2782,19 @@ a.text-error:visited {
 :root {
   font-family: "Roboto Regular"; }
 
+a {
+  color: #302ecd !important;
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important; }
+  a:hover {
+    text-decoration: underline !important; }
+
 .nerko {
   font-family: "NerkoOne Regular" !important; }
 
 section.language .tab {
   border-bottom: 0 !important; }
-section.language a:focus {
-  outline: 0;
-  border: 0;
-  text-decoration: none; }
 section.language .topic {
   position: relative;
   top: 15px; }
