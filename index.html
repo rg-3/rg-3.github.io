@@ -1,9 +1,18 @@
----
-title: Home
----
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>rg's homepage</title>
+    <link rel="icon" type="image/svg+xml" href="/images/hey.svg">
+    <link rel="stylesheet" href="/css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <section class='container grid-sm'>
+      <section class='language'>
+  
+<section class="columns cols-gapless header"><section class="column col-xs-12 col-mx-auto"><img src="/images/hey.svg"><span class="nerko" style="left: 5px;">Welcome</span></section></section>
 
-<section class='language'>
-  <%= app.header 'Welcome', '/images/hey.svg', style: 'left: 5px;' %>
 
   <section style="margin-top: 15px;" class='columns cols-gapless'>
     <section class='column col-xs-12 col-mx-auto'>
@@ -17,13 +26,15 @@ title: Home
 </section>
 
 <section class='language'>
-  <%= app.header 'Ruby libs', 'images/ruby.svg' %>
+  
+<section class="columns cols-gapless header"><section class="column col-xs-12 col-mx-auto"><img src="images/ruby.svg"><span class="nerko" style="">Ruby libs</span></section></section>
+
 
   <section class='columns cols-gapless'>
     <section class='column col-xs-12 col-mx-auto'>
       <ul class='tab tab-block'>
         <li>
-          <%= app.link_to_github "trip.rb" %>
+          <a href='https://github.com/rg-3/trip.rb/#readme' rel='noopener' target='_blank'>trip.rb</a>
           <p>
             Trip is a concurrent tracer that can pause, resume and alter code while it is being traced.
             The tracer yields control between two threads, typically the main thread and a thread that
@@ -31,7 +42,7 @@ title: Home
           </p>
         </li>
         <li>
-          <%= app.link_to_github "twenv.rb" %>
+          <a href='https://github.com/rg-3/twenv.rb/#readme' rel='noopener' target='_blank'>twenv.rb</a>
           <p>
             twenv.rb provides a customizable Twitter environment where you can interact with Twitter
             through its web APIs using a REPL. The environment uses the Ruby programming language, Pry and
@@ -39,14 +50,14 @@ title: Home
           </p>
         </li>
         <li>
-          <%= app.link_to_github "xchan.rb" %>
+          <a href='https://github.com/rg-3/xchan.rb/#readme' rel='noopener' target='_blank'>xchan.rb</a>
           <p>
             xchan.rb is a simple and easy to use library for sending and receiving Ruby objects between
             Ruby processes who have a parent-child relationship.
           </p>
         </li>
         <li>
-          <%= app.link_to_github "xpool.rb" %>
+          <a href='https://github.com/rg-3/xpool.rb/#readme' rel='noopener' target='_blank'>xpool.rb</a>
           <p>
             xpool.rb is an implementation of a process pool that uses xchan.rb to communicate between
             processes.
@@ -58,23 +69,25 @@ title: Home
 </section>
 
 <section class='language'>
-  <%= app.header 'JS libs', 'images/js.svg' %>
+  
+<section class="columns cols-gapless header"><section class="column col-xs-12 col-mx-auto"><img src="images/js.svg"><span class="nerko" style="">JS libs</span></section></section>
+
 
   <section class='columns cols-gapless'>
     <section class='column col-xs-12 col-mx-auto'>
       <ul class='tab tab-block'>
         <li>
-          <%= app.link_to_github "http-client.js" %>
+          <a href='https://github.com/rg-3/http-client.js/#readme' rel='noopener' target='_blank'>http-client.js</a>
           <p>
             http-client.js implements a Promise-based API on top of <code>XMLHttpRequest</code>.
           </p>
         </li>
         <li>
-          <%= app.link_to_github "include-html.js" %>
+          <a href='https://github.com/rg-3/include-html.js/#readme' rel='noopener' target='_blank'>include-html.js</a>
           <p>
               include-html.js implements an easy to use Promise-based API that fetches and inserts HTML
               partials through one or more network requests. I use this library in the
-              <%= app.link_to_github "screenshot.js", name: 'Screenshot' %> browser extension.
+              <a href='https://github.com/rg-3/screenshot.js/#readme' rel='noopener' target='_blank'>Screenshot</a> browser extension.
           </p>
         </li>
       </ul>
@@ -83,13 +96,15 @@ title: Home
 </section>
 
 <section class='language'>
-  <%= app.header 'Browser extensions', '/images/chrome.svg' %>
+  
+<section class="columns cols-gapless header"><section class="column col-xs-12 col-mx-auto"><img src="/images/chrome.svg"><span class="nerko" style="">Browser extensions</span></section></section>
+
 
   <section class='columns cols-gapless'>
     <section class='column col-xs-12 col-mx-auto'>
       <ul class='tab tab-block'>
         <li>
-          <%= app.link_to_github "screenshot.js", name: 'Screenshot' %>
+          <a href='https://github.com/rg-3/screenshot.js/#readme' rel='noopener' target='_blank'>Screenshot</a>
           <p>
             Screenshot is a Chrome extension that takes screenshots of web pages and web videos at
             the stroke of a keyboard shortcut.
@@ -99,3 +114,12 @@ title: Home
     </section>
   </section>
 </section>
+
+    </section>
+    <section class='columns'>
+      <footer class='column col-xs-12 col-mx-auto'>
+        This page was last updated Wed, Feb 17, 2021 16:19:13 (UTC)
+      </footer>
+    </section>
+  </body>
+</html>
